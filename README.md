@@ -27,3 +27,13 @@ Esta placa está construida a partir de un XC7Z010-CLG400.
 [EN] This folder contains the Zynq-eame_0' schematics in pdf and in KiCad.
 
 This board is built from a XC7Z010-CLG400.
+
+- [Zynq-eame_UltraScale_0](/Zynq-eame_UltraScale_0): ❗ No terminada / Unfinished ❗
+
+[ES] Esta carpeta contiene los esquemáticos de la Zynq-eame_UltraScale_0 en pdf y en KiCad.
+
+Esta placa está construida a partir de un XCZU2CG-SBVA484.
+
+[EN] This folder contains the Zynq-eame_UltraScale_0' schematics in pdf and in KiCad.
+
+This board is built from a XCZU2CG-SBVA484.
