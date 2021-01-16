@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Diseno_1-rescue)(type Legacy)(uri ${KIPRJMOD}/Diseno_1-rescue.lib)(options "")(descr ""))
+)
