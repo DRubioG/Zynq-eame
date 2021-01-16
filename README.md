@@ -12,12 +12,6 @@
 
 # Contenido / Content
 
-- [Diseno_1](/Diseno_1) (Antigua / Older): 
-
-[ES] Esta es la carpeta dónde se inició el proyecto Zynq-eame 
-
-[EN] This is the folder where Zynq-eame proyect began
-
 - [Documentacion](/Documentacion): 
 
 [ES] En esta carpeta se ubicarán los documentos que explican la construcción de los SoCs 
