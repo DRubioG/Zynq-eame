@@ -30,3 +30,6 @@ This board consist of:
 - 5 programmable buttons (high level active)
 - 5 programmable led (high level active)
 - 3 banks of pins: one with 48 pins and other with 26 pins hardware programmable and one with 38 MIO pins 
+
+## Esquemático / Schematic
+👉 [Zynq-eame 0](/Zynq-eame_0.pdf)
