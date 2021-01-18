@@ -32,4 +32,4 @@ This board consist of:
 - 3 banks of pins: one with 48 pins and other with 26 pins hardware programmable and one with 38 MIO pins 
 
 ## Esquemático / Schematic
-👉 [Zynq-eame 0](/Zynq-eame_0.pdf)
+👉 [Zynq-eame 0](Zynq-eame_0.pdf)
