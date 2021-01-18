@@ -2,6 +2,7 @@
 
 ## Zynq-7000
 [XC7Z010 pinout](XC7Z010-CLG400_pinout.pdf)
+
 [Zynq-7000 pinout](ug865-Zynq-7000-Pkg-Pinout.pdf)
 
 ## DDR
@@ -12,6 +13,7 @@
 
 ## RST delay
 [Xilinx example](AR65240_-_Example_PS_POR_B_Supervisor_Circuit.pdf)
+
 [TPS3106](tps3106.pdf)
 
 ## Oscillator
@@ -25,6 +27,7 @@
 
 ## USB-JTAG
 [FT2232H](DS_FT2232H.pdf)
+
 [EEPROM](96C46.pdf)
 
 ## USB COMM
