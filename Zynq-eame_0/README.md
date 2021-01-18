@@ -35,13 +35,13 @@ This board consist of:
 👉 [Zynq-eame 0](Zynq-eame_0.pdf)
 
 ## Vivado
-[ES] En este carpeta se ubicarán los documentos que harán la Zynq-eame 0 una [placa de Vivado](/Vivado)
+[ES] En este carpeta se ubicarán los documentos que harán la Zynq-eame 0 una [placa de Vivado](Vivado)
 
-[EN] In this folder it will be placed the documents that will make Zynq-eame 0 a [Vivado's board](/Vivado)
+[EN] In this folder it will be placed the documents that will make Zynq-eame 0 a [Vivado's board](Vivado)
 
 ## Proyecto / Project
-👉[Proyecto/Project](/KiCad)
+👉[Proyecto/Project](KiCad)
 
 ## Datasheet
-👉[Datasheet](/Datasheets)
+👉[Datasheet](Datasheets)
 
