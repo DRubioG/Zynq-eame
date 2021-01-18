@@ -18,7 +18,7 @@ Esta placa consta de:
 - Encendido por switch
 - Alimentación a 5V
 
-[EN] Zynq-eame 0 is a XC7Z010 based board from the Zynq-7000's family from Xilinx 
+[EN] Zynq-eame 0 is a XC7Z010 based board from the Zynq-7000's family from Xilinx.
 This board consist of:
 - 512Kb of DDR3 ram memory
 - HDMI output
@@ -33,3 +33,15 @@ This board consist of:
 
 ## Esquemático / Schematic
 👉 [Zynq-eame 0](Zynq-eame_0.pdf)
+
+## Vivado
+[ES] En este carpeta se ubicarán los documentos que harán la Zynq-eame 0 una [placa de Vivado](/Vivado)
+
+[EN] In this folder it will be placed the documents that will make Zynq-eame 0 a [Vivado's board](/Vivado)
+
+## Proyecto / Project
+👉[Proyecto/Project](/KiCad)
+
+## Datasheet
+👉[Datasheet](/Datasheets)
+
