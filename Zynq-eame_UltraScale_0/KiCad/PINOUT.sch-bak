@@ -1,0 +1,50 @@
+EESchema Schematic File Version 4
+LIBS:Zynq-eame_UltraScale_0-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 6
+Title "Zynq-eame UltraScale 0"
+Date ""
+Rev ""
+Comp "soceame.wordpress.com"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Zynq_UltraScale:XCZU2CG U?
+U 2 1 600CFA05
+P 2950 6400
+F 0 "U?" H 2783 7615 50  0000 C CNN
+F 1 "XCZU2CG" H 2783 7524 50  0000 C CNN
+F 2 "Zynq-eame_UltraScale_0:SBVA484" H 2850 1650 50  0001 C CNN
+F 3 "" H 2850 1650 50  0001 C CNN
+	2    2950 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zynq_UltraScale:XCZU2CG U?
+U 3 1 600D65CE
+P 2700 9200
+F 0 "U?" H 2783 9765 50  0000 C CNN
+F 1 "XCZU2CG" H 2783 9674 50  0000 C CNN
+F 2 "Zynq-eame_UltraScale_0:SBVA484" H 2600 4450 50  0001 C CNN
+F 3 "" H 2600 4450 50  0001 C CNN
+	3    2700 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zynq_UltraScale:XCZU2CG U?
+U 4 1 600DB9BC
+P 6900 7350
+F 0 "U?" H 6808 10015 50  0000 C CNN
+F 1 "XCZU2CG" H 6808 9924 50  0000 C CNN
+F 2 "Zynq-eame_UltraScale_0:SBVA484" H 6800 2600 50  0001 C CNN
+F 3 "" H 6800 2600 50  0001 C CNN
+	4    6900 7350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

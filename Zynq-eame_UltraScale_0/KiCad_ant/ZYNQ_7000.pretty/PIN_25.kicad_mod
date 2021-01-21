@@ -1,0 +1,8 @@
+(module PIN_25 (layer F.Cu) (tedit 5FFB3F7B)
+  (fp_text reference REF** (at -0.69088 28.37396) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PIN_25 (at -0.69088 27.37396) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

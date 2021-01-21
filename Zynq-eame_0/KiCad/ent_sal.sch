@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Diseno_1-cache
+LIBS:Zynq-eame_0-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -976,17 +976,6 @@ Wire Wire Line
 	12650 3300 12550 3300
 Wire Wire Line
 	12550 3300 12550 3150
-$Comp
-L Zynq_7000:TPD12S016 #U018
-U 1 1 606DDBF4
-P 12600 2350
-F 0 "#U018" H 12500 3650 50  0000 C CNN
-F 1 "TPD12S016" H 12500 3550 50  0000 C CNN
-F 2 "ZYNQ_7000:TSSOP-24-1_copy" H 12150 3200 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tpd12s016.pdf" H 12150 3200 50  0001 C CNN
-	1    12600 2350
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	10500 3750 10500 700 
 Text Notes 11200 850  2    79   ~ 16
@@ -2617,5 +2606,16 @@ F 2 "" H 3500 5800 50  0001 C CNN
 F 3 "" H 3500 5800 50  0001 C CNN
 	1    3500 5800
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Zynq_7000:TPD12S016 #U0101
+U 1 1 60102532
+P 12600 2350
+F 0 "#U0101" H 12600 3665 50  0000 C CNN
+F 1 "TPD12S016" H 12600 3574 50  0000 C CNN
+F 2 "ZYNQ_7000:SOIC-24" H 11500 3150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tpd12s016.pdf" H 11500 3150 50  0001 C CNN
+	1    12600 2350
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
