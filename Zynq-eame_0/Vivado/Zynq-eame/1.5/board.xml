@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.0" vendor="soceame.wordpress.com" name="Zynq-eame" display_name="Zynq-eame" url="soceame.wordpress.com" preset_file="preset.xml">
+<board schema_version="2.0" vendor="soceame.wordpress.com" name="Zynq-eame 0" display_name="Zynq-eame" url="soceame.wordpress.com" preset_file="preset.xml">
   <images>
     <image name="foto_blog.jpg" display_name="Zynq-eame" sub_type="board">
-      <description>MiPlaca Board File Image</description>
+      <description>Zynq-eame 0 Board File Image</description>
     </image>
   </images>
   <compatible_board_revisions>
@@ -12,11 +12,7 @@
   <description>Version</description>
   
   <components>
-   
-  
-  
-  
-    <component name="part0" display_name="Mi placa" type="fpga" part_name="xc7z010clg400-1" pin_map_file="part0_pins.xml" vendor="soceame.wordpress.com" spec_url="soceame.wordpress.com">
+    <component name="part0" display_name="Zynq-eame 0" type="fpga" part_name="xc7z010clg400-1" pin_map_file="part0_pins.xml" vendor="soceame.wordpress.com" spec_url="soceame.wordpress.com">
       <description>FPGA part on the board</description>
       <interfaces>
         <interface mode="master" name="btns" type="xilinx.com:interface:gpio_rtl:1.0" of_component="btns" preset_proc="btns_preset">
@@ -73,17 +69,18 @@
       </interfaces>
     </component>
     <component name="btns" display_name="Push buttons" type="chip" sub_type="push_button" major_group="General Purpose Input or Output">
-      <description>Push Buttons, U R L D C, Active High</description>
+      <description>Push Buttons, Active High</description>
     </component>
     <component name="leds" display_name="LED" type="chip" sub_type="led" major_group="General Purpose Input or Output">
-      <description>LEDs, 7 to 0, Active High</description>
+      <description>LEDs, Active High</description>
     </component>
     <component name="ps7_fixedio" display_name="PS7 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>
-    <component name="sws_8bits" display_name="DIP switches" type="chip" sub_type="switch" major_group="General Purpose Input or Output">
-      <description>DIP Switches, 7 to 0</description>
+
+    <component name="sws" display_name="DIP switches" type="chip" sub_type="switch" major_group="General Purpose Input or Output">
+      <description>DIP Switches, Active Low</description>
     </component>
     <component name="sys_clock" display_name="System clock" type="chip" sub_type="system_clock" major_group="Clock Sources">
-      <description>System Clock, 100 MHz</description>
+      <description>System Clock, 50 MHz</description>
     </component>
   </components>
   <jtag_chains>
@@ -95,18 +92,14 @@
     <connection name="part0_btns_5bits" component1="part0" component2="btns_5bits">
       <connection_map name="part0_btns_5bits_1" c1_st_index="0" c1_end_index="4" c2_st_index="0" c2_end_index="4"/>
     </connection>
-    <connection name="part0_leds_8bits" component1="part0" component2="leds_8bits">
-      <connection_map name="part0_leds_8bits_1" c1_st_index="5" c1_end_index="12" c2_st_index="0" c2_end_index="7"/>
+    <connection name="part0_leds_5bits" component1="part0" component2="leds_5bits">
+      <connection_map name="part0_leds_5bits_1" c1_st_index="5" c1_end_index="12" c2_st_index="0" c2_end_index="4"/>
     </connection>
-    <connection name="part0_sws_8bits" component1="part0" component2="sws_8bits">
-      <connection_map name="part0_sws_8bits_1" c1_st_index="13" c1_end_index="20" c2_st_index="0" c2_end_index="7"/>
+    <connection name="part0_sws_5bits" component1="part0" component2="sws_5bits">
+      <connection_map name="part0_sws_5bits_1" c1_st_index="13" c1_end_index="20" c2_st_index="0" c2_end_index="4"/>
     </connection>
     <connection name="part0_sys_clock" component1="part0" component2="sys_clock">
       <connection_map name="part0_sys_clock_1" c1_st_index="21" c1_end_index="21" c2_st_index="0" c2_end_index="0"/>
     </connection>
-	
-	
-
-	
   </connections>
 </board>

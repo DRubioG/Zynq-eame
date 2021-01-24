@@ -6,7 +6,7 @@
 Esta placa consta de:
 - 512Kb de memoria ram DDR3
 - Salida HDMI 
-- Tarjeta SD
+- SD
 - Comunicación USB
 - USB-JTAG 
 - Quad-SPI Flash Memory
@@ -30,6 +30,9 @@ This board consist of:
 - 5 programmable buttons (high level active)
 - 5 programmable led (high level active)
 - 3 banks of pins: one with 48 pins and other with 26 pins hardware programmable and one with 38 MIO pins 
+- 2 supply banks
+- Turn-on by switch
+- 5V of supply
 
 ## Esquemático / Schematic
 👉 [Zynq-eame 0](Zynq-eame_0.pdf)

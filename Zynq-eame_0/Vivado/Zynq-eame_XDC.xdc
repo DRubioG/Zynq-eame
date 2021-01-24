@@ -16,11 +16,11 @@
 
 #Buttons
 
-#set_property -dict { PACKAGE_PIN H18    IOSTANDARD LVCMOS25 } [get_ports BT_1]; # button 1
-#set_property -dict { PACKAGE_PIN F19    IOSTANDARD LVCMOS25 } [get_ports BT_2]; # button 2
-#set_property -dict { PACKAGE_PIN F20    IOSTANDARD LVCMOS25 } [get_ports BT_3]; # button 3
-#set_property -dict { PACKAGE_PIN G17    IOSTANDARD LVCMOS25 } [get_ports BT_4]; # button 4
-#set_property -dict { PACKAGE_PIN G18    IOSTANDARD LVCMOS25 } [get_ports BT_5]; # button 5
+#set_property -dict { PACKAGE_PIN H18    IOSTANDARD LVCMOS33 } [get_ports BT_1]; # button 1
+#set_property -dict { PACKAGE_PIN F19    IOSTANDARD LVCMOS33 } [get_ports BT_2]; # button 2
+#set_property -dict { PACKAGE_PIN F20    IOSTANDARD LVCMOS33 } [get_ports BT_3]; # button 3
+#set_property -dict { PACKAGE_PIN G17    IOSTANDARD LVCMOS33 } [get_ports BT_4]; # button 4
+#set_property -dict { PACKAGE_PIN G18    IOSTANDARD LVCMOS33 } [get_ports BT_5]; # button 5
 
 #Leds
 

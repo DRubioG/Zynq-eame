@@ -3,12 +3,12 @@
 <ip_preset preset_proc_name="ps7_preset"> 
   <ip vendor="xilinx.com" library="ip" name="processing_system7" version="*"> 
     <user_parameters>
-     <user_parameter name="CONFIG.preset" value="Zynq-eame" /> 
+     <user_parameter name="CONFIG.preset" value="Zynq-eame_0" /> 
    </user_parameters>
   </ip>
 </ip_preset>
   <ip_preset preset_proc_name="leds_preset">
-    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO1">
         <user_parameters>
           <user_parameter name="CONFIG.C_GPIO_WIDTH" value="5"/> 
           <user_parameter name="CONFIG.C_ALL_OUTPUTS" value="1"/> 
@@ -74,7 +74,7 @@
 
   </ip_preset>
   <ip_preset preset_proc_name="sws_preset">
-    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO1">
         <user_parameters>
           <user_parameter name="CONFIG.C_GPIO_WIDTH" value="5"/> 
           <user_parameter name="CONFIG.C_ALL_INPUTS" value="1"/> 
@@ -140,7 +140,7 @@
 
   </ip_preset>
   <ip_preset preset_proc_name="btns_preset">
-    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO">
+    <ip vendor="xilinx.com" library="ip" name="axi_gpio" ip_interface="GPIO1">
         <user_parameters>
           <user_parameter name="CONFIG.C_GPIO_WIDTH" value="5"/> 
           <user_parameter name="CONFIG.C_ALL_INPUTS" value="1"/> 
