@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <board schema_version="2.0" vendor="soceame.wordpress.com" name="Zynq-eame 0" display_name="Zynq-eame" url="soceame.wordpress.com" preset_file="preset.xml">
   <images>
-    <image name="foto_blog.jpg" display_name="Zynq-eame" sub_type="board">
+    <image name="Zynq-eame_0.jpg" display_name="Zynq-eame" sub_type="board">
       <description>Zynq-eame 0 Board File Image</description>
     </image>
   </images>
