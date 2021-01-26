@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<part_info part_name="xczu2cg-sbva484-2-e">
+<pins>
+	<pin index="0" name ="btn_1" iostandard="LVCMOS18" loc="F4"/>
+	<pin index="1" name ="btn_2" iostandard="LVCMOS18" loc="H3"/>
+	<pin index="2" name ="btn_3" iostandard="LVCMOS18" loc="G4"/>
+	<pin index="3" name ="btn_4" iostandard="LVCMOS18" loc="H4"/>
+	<pin index="4" name ="btn_5" iostandard="LVCMOS18" loc="G2"/>
+
+	<pin index="5" name ="led_1" iostandard="LVCMOS18" loc="K3"/>
+	<pin index="6" name ="led_2" iostandard="LVCMOS18" loc="K4"/>
+	<pin index="7" name ="led_3" iostandard="LVCMOS18" loc="J2"/>
+	<pin index="8" name ="led_4" iostandard="LVCMOS18" loc="J3"/>
+	<pin index="9" name ="led_5" iostandard="LVCMOS18" loc="L3"/>
+
+	<pin index="10" name ="sw_1" iostandard="LVCMOS18" loc="H2"/>
+	<pin index="11" name ="sw_2" iostandard="LVCMOS18" loc="H5"/>
+	<pin index="12" name ="sw_3" iostandard="LVCMOS18" loc="J5"/>
+	<pin index="13" name ="sw_4" iostandard="LVCMOS18" loc="J1"/>
+	<pin index="14" name ="sw_5" iostandard="LVCMOS18" loc="K1"/>
+    
+  	</pins>
+  
+</pins>
+</part_info>
