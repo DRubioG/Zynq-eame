@@ -4,7 +4,7 @@
 
 **[ES]** La Zynq-eame 0 es un placa basada en un XC7Z010 de Xilinx de la familia de las Zynq-7000.
 Esta placa consta de:
-- 512Kb de memoria ram DDR3
+- 512Mb de memoria ram DDR3
 - Salida HDMI 
 - SD
 - Comunicación USB
@@ -20,7 +20,7 @@ Esta placa consta de:
 
 **[EN]** Zynq-eame 0 is a XC7Z010 based board from the Zynq-7000's family from Xilinx.
 This board consist of:
-- 512Kb of DDR3 ram memory
+- 512Mb of DDR3 ram memory
 - HDMI output
 - SD
 - USB communication
