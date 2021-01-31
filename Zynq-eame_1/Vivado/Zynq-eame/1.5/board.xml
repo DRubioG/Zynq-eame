@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<board schema_version="2.0" vendor="soceame.wordpress.com" name="Zynq-eame 0" display_name="Zynq-eame" url="soceame.wordpress.com" preset_file="preset.xml">
+  <images>
+    <image name="Zynq-eame_0.jpg" display_name="Zynq-eame" sub_type="board">
+      <description>Zynq-eame 0 Board File Image</description>
+    </image>
+  </images>
+  <compatible_board_revisions>
+    <revision id="0">d</revision>
+  </compatible_board_revisions>
+  <file_version>1.5</file_version>
+  <description>Version</description>
+  
+  <components>
+    <component name="part0" display_name="Zynq-eame 0" type="fpga" part_name="xc7z010clg400-1" pin_map_file="part0_pins.xml" vendor="soceame.wordpress.com" spec_url="soceame.wordpress.com">
+      <description>FPGA part on the board</description>
+      <interfaces>
+        <interface mode="master" name="btns" type="xilinx.com:interface:gpio_rtl:1.0" of_component="btns" preset_proc="btns_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="btns" dir="in" left="4" right="0"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="btn_1"/> 
+                <pin_map port_index="1" component_pin="btn_2"/> 
+                <pin_map port_index="2" component_pin="btn_3"/> 
+                <pin_map port_index="3" component_pin="btn_4"/> 
+                <pin_map port_index="4" component_pin="btn_5"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="leds" type="xilinx.com:interface:gpio_rtl:1.0" of_component="leds" preset_proc="leds_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds" dir="out" left="4" right="0"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="led_1"/> 
+                <pin_map port_index="1" component_pin="led_2"/> 
+                <pin_map port_index="2" component_pin="led_3"/> 
+                <pin_map port_index="3" component_pin="led_4"/> 
+                <pin_map port_index="4" component_pin="leds_5"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        <interface mode="master" name="ps7_fixedio" type="xilinx.com:display_processing_system7:fixedio_rtl:1.0" of_component="ps7_fixedio" preset_proc="ps7_preset"> 
+        </interface>
+        <interface mode="master" name="sws" type="xilinx.com:interface:gpio_rtl:1.0" of_component="sws" preset_proc="sws_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="sws" dir="in" left="4" right="0"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="sw_1"/> 
+                <pin_map port_index="1" component_pin="sw_2"/> 
+                <pin_map port_index="2" component_pin="sw_3"/> 
+                <pin_map port_index="3" component_pin="sw_4"/> 
+                <pin_map port_index="4" component_pin="sw_5"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+        
+      </interfaces>
+    </component>
+    <component name="btns" display_name="Push buttons" type="chip" sub_type="push_button" major_group="General Purpose Input or Output">
+      <description>Push Buttons, Active High</description>
+    </component>
+    <component name="leds" display_name="LED" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>LEDs, Active High</description>
+    </component>
+    <component name="ps7_fixedio" display_name="PS7 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>
+
+    <component name="sws" display_name="DIP switches" type="chip" sub_type="switch" major_group="General Purpose Input or Output">
+      <description>DIP Switches, Active Low</description>
+    </component>
+    <component name="sys_clock" display_name="System clock" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>System Clock, 50 MHz</description>
+    </component>
+  </components>
+  <jtag_chains>
+    <jtag_chain name="chain1">
+      <position name="0" component="part0"/>
+    </jtag_chain>
+  </jtag_chains>
+  <connections>
+    <connection name="part0_btns_5bits" component1="part0" component2="btns_5bits">
+      <connection_map name="part0_btns_5bits_1" c1_st_index="0" c1_end_index="4" c2_st_index="0" c2_end_index="4"/>
+    </connection>
+    <connection name="part0_leds_5bits" component1="part0" component2="leds_5bits">
+      <connection_map name="part0_leds_5bits_1" c1_st_index="5" c1_end_index="12" c2_st_index="0" c2_end_index="4"/>
+    </connection>
+    <connection name="part0_sws_5bits" component1="part0" component2="sws_5bits">
+      <connection_map name="part0_sws_5bits_1" c1_st_index="13" c1_end_index="20" c2_st_index="0" c2_end_index="4"/>
+    </connection>
+    <connection name="part0_sys_clock" component1="part0" component2="sys_clock">
+      <connection_map name="part0_sys_clock_1" c1_st_index="21" c1_end_index="21" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+  </connections>
+</board>
