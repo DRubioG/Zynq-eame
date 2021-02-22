@@ -4,7 +4,7 @@
 
 **[ES]** La Zynq-eame UltraScale 0 es un placa basada en un XCZU2CG de Xilinx de la familia de las Zynq UltraScale+.
 Esta placa consta de:
-- 512Mb de memoria ram DDR4
+- 1Gb de memoria ram DDR4 (512Mbx2)
 - Salida HDMI 
 - SD 3.0
 - Comunicación USB
@@ -20,7 +20,7 @@ Esta placa consta de:
 
 **[EN]** Zynq-eame 0 is a XCZU2CG based board from the Zynq UltraScale+'s family from Xilinx.
 This board consist of:
-- 512Mb of DDR4 ram memory
+- 1Gb of DDR4 ram memory (512Mbx2)
 - HDMI output
 - SD 3.0
 - USB communication
