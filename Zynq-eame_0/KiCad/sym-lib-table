@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Diseno_1-rescue)(type Legacy)(uri ${KIPRJMOD}/Diseno_1-rescue.lib)(options "")(descr ""))
+  (lib (name ase-33.333mhz-lc-t)(type Legacy)(uri C:/Users/XD/Desktop/Intemerdio/ase-33.333mhz-lc-t.lib)(options "")(descr ""))
 )
