@@ -1,8 +1,3 @@
-![Open Hardware](/logo-open-hardware.png)
-
-**[ES]** Estos son proyectos Open Hardware 
-
-**[EN]** These are Open Hardware projects
 
 # Introducción / Introduction
 
@@ -37,3 +32,10 @@ Esta placa está construida a partir de un XCZU2CG-SBVA484.
 **[EN]** This folder contains the Zynq-eame_UltraScale_0' schematics in pdf and in KiCad.
 
 This board is built from a XCZU2CG-SBVA484.
+
+
+![Open Hardware](/logo-open-hardware.png)
+
+**[ES]** Estos son proyectos Open Hardware 
+
+**[EN]** These are Open Hardware projects
