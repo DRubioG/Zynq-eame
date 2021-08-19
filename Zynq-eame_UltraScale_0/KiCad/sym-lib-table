@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Zynq-eame_UltraScale_0-rescue)(type Legacy)(uri ${KIPRJMOD}/Zynq-eame_UltraScale_0-rescue.lib)(options "")(descr ""))
+)

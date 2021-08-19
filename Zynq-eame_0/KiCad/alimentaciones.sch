@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Zynq-eame_0-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Zynq_7000:TPS563201 U?
+L Zynq-eame_0-rescue:TPS563201-Zynq_7000 U?
 U 1 1 5FFEBF57
 P 3100 1900
 AR Path="/5FFEBF57" Ref="U?"  Part="1" 
@@ -286,7 +285,7 @@ F 3 "" H 5250 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Zynq_7000:VIN #PWR?
+L Zynq-eame_0-rescue:VIN-Zynq_7000 #PWR?
 U 1 1 5FFEBFD2
 P 1500 1650
 AR Path="/5FFEBFD2" Ref="#PWR?"  Part="1" 
@@ -310,7 +309,7 @@ Connection ~ 5250 1750
 Wire Wire Line
 	5250 1750 5400 1750
 $Comp
-L Zynq_7000:TPS563201 U?
+L Zynq-eame_0-rescue:TPS563201-Zynq_7000 U?
 U 1 1 5FFEBFDE
 P 3700 4100
 AR Path="/5FFEBFDE" Ref="U?"  Part="1" 
@@ -556,7 +555,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 4500 6000 4400
 $Comp
-L Zynq_7000:VIN #PWR?
+L Zynq-eame_0-rescue:VIN-Zynq_7000 #PWR?
 U 1 1 5FFEC04D
 P 1350 3850
 AR Path="/5FFEC04D" Ref="#PWR?"  Part="1" 
@@ -714,7 +713,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 5300 2750 4850
 $Comp
-L Zynq_7000:TPS563201 U?
+L Zynq-eame_0-rescue:TPS563201-Zynq_7000 U?
 U 1 1 5FFEC097
 P 3050 6500
 AR Path="/5FFEC097" Ref="U?"  Part="1" 
@@ -949,7 +948,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 6900 5350 6800
 $Comp
-L Zynq_7000:VIN #PWR?
+L Zynq-eame_0-rescue:VIN-Zynq_7000 #PWR?
 U 1 1 5FFEC100
 P 1450 6250
 AR Path="/5FFEC100" Ref="#PWR?"  Part="1" 
@@ -1020,7 +1019,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 6850 4450 6850
 $Comp
-L Zynq_7000:TPS563201 U?
+L Zynq-eame_0-rescue:TPS563201-Zynq_7000 U?
 U 1 1 5FFEC122
 P 3400 8500
 AR Path="/5FFEC122" Ref="U?"  Part="1" 
@@ -1266,7 +1265,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 8900 5700 8800
 $Comp
-L Zynq_7000:VIN #PWR?
+L Zynq-eame_0-rescue:VIN-Zynq_7000 #PWR?
 U 1 1 5FFEC191
 P 900 8250
 AR Path="/5FFEC191" Ref="#PWR?"  Part="1" 
@@ -1482,7 +1481,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 8500 6400 8500
 $Comp
-L Zynq_7000:VCCO_34 #PWR?
+L Zynq-eame_0-rescue:VCCO_34-Zynq_7000 #PWR?
 U 1 1 5FFEC1F6
 P 6600 8250
 AR Path="/5FFEC1F6" Ref="#PWR?"  Part="1" 
@@ -1890,7 +1889,7 @@ F 3 "" H 13400 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Zynq_7000:VCCO_34 #PWR044
+L Zynq-eame_0-rescue:VCCO_34-Zynq_7000 #PWR044
 U 1 1 60ADBC4F
 P 13400 6050
 AR Path="/5FFBC59B/60ADBC4F" Ref="#PWR044"  Part="1" 
@@ -2252,7 +2251,7 @@ Connection ~ 13400 7250
 Wire Wire Line
 	13400 7250 13400 7350
 $Comp
-L Zynq_7000:XC7Z010-BUENO U5
+L Zynq-eame_0-rescue:XC7Z010-BUENO-Zynq_7000 U5
 U 8 1 6012E22C
 P 12350 7400
 F 0 "U5" H 12375 9848 50  0000 C CNN
@@ -2263,7 +2262,7 @@ F 3 "" H 12250 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Zynq_7000:XC7Z010-BUENO U5
+L Zynq-eame_0-rescue:XC7Z010-BUENO-Zynq_7000 U5
 U 9 1 6013FBF4
 P 12400 2350
 F 0 "U5" H 12400 3898 50  0000 C CNN
@@ -2354,7 +2353,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 1400 8650 1400
 $Comp
-L Zynq_7000:VIN #PWR0176
+L Zynq-eame_0-rescue:VIN-Zynq_7000 #PWR0176
 U 1 1 6044FA90
 P 9200 1350
 F 0 "#PWR0176" H 9200 1200 50  0001 C CNN
@@ -2373,7 +2372,7 @@ Wire Notes Line
 Text Notes 7150 950  0    79   ~ 16
 Voltage input\n\n
 $Comp
-L Zynq_7000:TPS3106K33DBV U9
+L Zynq-eame_0-rescue:TPS3106K33DBV-Zynq_7000 U9
 U 1 1 60DB874D
 P 8100 3350
 F 0 "U9" H 7800 3800 50  0000 C CNN

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Zynq-eame_0-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Zynq_7000:XC7Z010-BUENO U5
+L Zynq-eame_0-rescue:XC7Z010-BUENO-Zynq_7000 U5
 U 2 1 6015CDE4
 P 12200 6050
 AR Path="/6015CDE4" Ref="U5"  Part="2" 
@@ -28,7 +27,7 @@ F 3 "" H 12100 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Zynq_7000:XC7Z010-BUENO U5
+L Zynq-eame_0-rescue:XC7Z010-BUENO-Zynq_7000 U5
 U 6 1 601651B9
 P 12300 2500
 AR Path="/601651B9" Ref="U5"  Part="6" 
@@ -41,7 +40,7 @@ F 3 "" H 12200 -750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Zynq_7000:XC7Z010-BUENO U5
+L Zynq-eame_0-rescue:XC7Z010-BUENO-Zynq_7000 U5
 U 7 1 6016DBA7
 P 14350 4350
 AR Path="/6016DBA7" Ref="U5"  Part="7" 
@@ -54,7 +53,7 @@ F 3 "" H 14250 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Zynq_7000:XC7Z010-BUENO U5
+L Zynq-eame_0-rescue:XC7Z010-BUENO-Zynq_7000 U5
 U 1 1 6017695E
 P 14300 9300
 AR Path="/6017695E" Ref="U5"  Part="1" 
@@ -247,7 +246,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 8600 15200 8600
 $Comp
-L Connector:USB_B_Micro J2
+L Zynq-eame_0-rescue:USB_B_Micro-Connector J2
 U 1 1 5FF0ED8B
 P 1700 8400
 F 0 "J2" H 1757 8867 50  0000 C CNN
@@ -732,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 5550 15350 5550
 $Comp
-L Interface_USB:FT2232H U11
+L Zynq-eame_0-rescue:FT2232H-Interface_USB U11
 U 1 1 600AACC3
 P 4600 3900
 F 0 "U11" H 5400 6050 50  0000 C CNN
@@ -851,7 +850,7 @@ Wire Wire Line
 	3400 6250 4000 6250
 Connection ~ 4000 6250
 $Comp
-L Connector:USB_B_Micro J4
+L Zynq-eame_0-rescue:USB_B_Micro-Connector J4
 U 1 1 601ABA7F
 P 1000 3100
 F 0 "J4" H 1057 3567 50  0000 C CNN
@@ -1808,7 +1807,7 @@ Wire Wire Line
 Text Notes 12500 10950 0    79   ~ 0
 MIO, JTAG & REFERENCE\n
 $Comp
-L Zynq_7000:93C46 U13
+L Zynq-eame_0-rescue:93C46-Zynq_7000 U13
 U 1 1 6015CC72
 P 1550 5250
 F 0 "U13" H 1350 5700 79  0000 C CNN
@@ -2004,7 +2003,7 @@ $EndComp
 Wire Wire Line
 	11050 9350 11050 9450
 $Comp
-L Zynq_7000:S25FL128S U14
+L Zynq-eame_0-rescue:S25FL128S-Zynq_7000 U14
 U 1 1 60068CB9
 P 9850 2350
 F 0 "U14" H 9850 2965 50  0000 C CNN
